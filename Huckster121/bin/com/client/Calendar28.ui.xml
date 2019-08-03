@@ -1,0 +1,46 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui">
+	<ui:style>
+	.important {
+		font-weight: bold;
+	}
+	</ui:style>
+	<g:HTMLPanel>
+		<g:Button ui:field="b1"/>
+			<g:Button ui:field="b2"/>
+			<g:Button ui:field="b3"/>
+			<g:Button ui:field="b4"/>
+			<g:Button ui:field="b5"/>
+			<g:Button ui:field="b6"/>
+			
+				<g:Button ui:field="b7"/>
+				<g:Button ui:field="b8"/>
+				<g:Button ui:field="b9"/>
+				<g:Button ui:field="b10"/>
+				<g:Button ui:field="b11"/>
+				<g:Button ui:field="b12"/>
+			
+				<g:Button ui:field="b13"/>
+				<g:Button ui:field="b14"/>
+				<g:Button ui:field="b15"/>
+				<g:Button ui:field="b16"/>
+				<g:Button ui:field="b17"/>
+				<g:Button ui:field="b18"/>
+			
+				<g:Button ui:field="b19"/>
+				<g:Button ui:field="b20"/>
+				<g:Button ui:field="b21"/>
+				<g:Button ui:field="b22"/>
+				<g:Button ui:field="b23"/>
+				<g:Button ui:field="b24"/>
+			
+				<g:Button ui:field="b25"/>
+				<g:Button ui:field="b26"/>
+				<g:Button ui:field="b27"/>
+				<g:Button ui:field="b28"/>
+			
+				<g:Button ui:field="Submit"/>
+				<g:TextBox ui:field="t1"/>
+	</g:HTMLPanel>
+</ui:UiBinder> 

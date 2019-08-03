@@ -1,0 +1,43 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+xmlns:m="urn:import:gwt.material.design.client.ui"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui">
+	<ui:style>
+	
+	</ui:style>
+	<g:HTMLPanel>
+	<m:MaterialRow addStyleNames="code">
+    <m:MaterialRow grid="s6">
+            <m:MaterialTab ui:field="tabIntro" shadow="1" indicatorColor="YELLOW" backgroundColor="PURPLE" height="4.5em">
+              <m:MaterialTabItem waves="YELLOW">
+                <m:MaterialLabel text="HUCKSTER" fontSize="4em" textColor="WHITE"/>
+              </m:MaterialTabItem>
+            </m:MaterialTab>
+		<m:MaterialRow>
+			<m:MaterialColumn grid="s6" shadow="1" waves="DEFAULT">
+				<m:MaterialCard backgroundColor="WHITE" orientation="LANDSCAPE" detectOrientation="true"/>
+				<m:MaterialLabel text="MILK" fontSize="3em" addStyleNames="truncate"/>
+				<m:MaterialImage url="https://media.giphy.com/media/3oz8xCX30CNCJZigSc/giphy.gif" type="MATERIALBOXED"/>
+			</m:MaterialColumn>
+			<m:MaterialColumn grid="s6" shadow="1" waves="DEFAULT">
+				<m:MaterialCard backgroundColor="WHITE" orientation="LANDSCAPE" detectOrientation="true"/>
+				<m:MaterialLabel text="Newspaper" fontSize="3em" addStyleNames="truncate" />
+				<m:MaterialImage url="https://media.giphy.com/media/pfPA6Bp9EhLji/giphy.gif" type="MATERIALBOXED"/>
+			</m:MaterialColumn>
+		</m:MaterialRow>
+        <m:MaterialRow>
+        	<m:MaterialColumn>
+       			<m:MaterialButton ui:field="b1" text="Customer" backgroundColor="RED" waves="LIGHT" size="LARGE" iconType="FACE" iconPosition="RIGHT"/>
+       		</m:MaterialColumn>
+       		<m:MaterialColumn>
+ 				<m:MaterialButton ui:field="b2" text="Hawker" waves="LIGHT" backgroundColor="PURPLE" iconType="FACE" iconPosition="RIGHT" size="LARGE"/>
+ 			</m:MaterialColumn>
+ 			<m:MaterialColumn>
+ 				<m:MaterialButton ui:field="b3" text="Admin" waves="LIGHT" iconType="FACE" iconPosition="RIGHT" size="LARGE"/>
+ 			</m:MaterialColumn>
+        </m:MaterialRow>
+      </m:MaterialRow>
+      </m:MaterialRow>
+		
+	</g:HTMLPanel>
+</ui:UiBinder> 

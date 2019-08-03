@@ -1,0 +1,26 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui"
+	xmlns:m="urn:import:gwt.material.design.client.ui"
+	>
+	<ui:style>
+	
+	</ui:style>
+	<g:HTMLPanel>
+	 <m:MaterialTab ui:field="tabIntro" shadow="1" indicatorColor="YELLOW" backgroundColor="BLUE_DARKEN_1" height="4.5em">
+              <m:MaterialTabItem waves="YELLOW">
+                <m:MaterialLabel text="HUCKSTER" fontSize="4em" textColor="WHITE"/>
+              </m:MaterialTabItem>
+              </m:MaterialTab>
+	<m:MaterialPanel ui:field="mp" paddingLeft="30" paddingRight="30" paddingTop="30">
+	<m:MaterialNavBar  width="100%" visible="true">
+     <m:MaterialSearch ui:field="t1" placeholder="Search Services" backgroundColor="WHITE" iconColor="BLACK" active="true" grid="l3" shadow="1"/>
+     </m:MaterialNavBar>
+     </m:MaterialPanel>
+     <m:MaterialPanel textAlign="CENTER" ui:field="m">
+           <m:MaterialButton ui:field="b2" text="     BACK     "/>
+     </m:MaterialPanel>
+       
+
+	</g:HTMLPanel>
+</ui:UiBinder> 

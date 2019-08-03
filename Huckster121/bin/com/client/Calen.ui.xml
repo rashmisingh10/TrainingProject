@@ -1,0 +1,63 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui"
+	xmlns:m="urn:import:gwt.material.design.client.ui">
+	<ui:style>
+	
+	</ui:style>
+	<g:HTMLPanel>
+			<m:MaterialTab ui:field="tabIntro" shadow="1" indicatorColor="YELLOW" backgroundColor="GREEN" height="4.5em">
+              <m:MaterialTabItem waves="YELLOW">
+                <m:MaterialLabel text="HUCKSTER" fontSize="4em" textColor="WHITE"/>
+              </m:MaterialTabItem>
+        </m:MaterialTab>
+		 <m:MaterialRow addStyleNames="code">
+		 	<m:MaterialRow width="20%">
+		 	<m:MaterialTitle description="Choose Date for Leave" fontSize="2em" />
+		 	</m:MaterialRow>
+		 	<m:MaterialRow>
+         	<m:MaterialDatePicker ui:field="p1" placeholder="Date 1" container="SELF" selectionType="YEAR" grid="s12"/>
+         	</m:MaterialRow>
+         	<m:MaterialRow>
+         	<m:MaterialButton type="FLOATING" ui:field="b1" waves="LIGHT" size="LARGE" backgroundColor="RED" iconType="ADD_BOX" />
+         	<m:MaterialDatePicker ui:field="p2" placeholder="Date 2" container="SELF" selectionType="YEAR" grid="s12"/>
+         	</m:MaterialRow>
+         	<m:MaterialRow>
+         	<m:MaterialButton type="FLOATING" ui:field="b2" waves="LIGHT" size="LARGE" backgroundColor="BLUE" iconType="ADD_BOX" />
+         	<m:MaterialDatePicker ui:field="p3" placeholder="Date 3" container="SELF" selectionType="YEAR" grid="s12"/>
+         	</m:MaterialRow>
+         	<m:MaterialRow>
+         	<m:MaterialButton type="FLOATING" ui:field="b3" waves="LIGHT" size="LARGE" backgroundColor="GREEN" iconType="ADD_BOX" />
+         	<m:MaterialDatePicker ui:field="p4" placeholder="Date 4" container="SELF" selectionType="YEAR" grid="s12"/>
+         	</m:MaterialRow>
+         	<m:MaterialRow>
+         	<m:MaterialButton type="FLOATING" ui:field="b4" waves="LIGHT" size="LARGE" backgroundColor="PURPLE" iconType="ADD_BOX" />
+         	<m:MaterialDatePicker ui:field="p5" placeholder="Date 5" container="SELF" selectionType="YEAR" grid="s12"/>
+         	</m:MaterialRow>
+         	<m:MaterialRow>
+         	<m:MaterialButton type="FLOATING" ui:field="b5" waves="LIGHT" size="LARGE" backgroundColor="RED" iconType="ADD_BOX" />
+         	<m:MaterialDatePicker ui:field="p6" placeholder="Date 6" container="SELF" selectionType="YEAR" grid="s12"/>
+         	</m:MaterialRow>
+         	<m:MaterialRow>
+         	<m:MaterialButton type="FLOATING" ui:field="b6" waves="LIGHT" size="LARGE" backgroundColor="BLUE" iconType="ADD_BOX" />
+         	<m:MaterialDatePicker ui:field="p7" placeholder="Date 7" container="SELF" selectionType="YEAR" grid="s12"/>
+         	</m:MaterialRow>
+         	<m:MaterialRow>
+         	<m:MaterialButton type="FLOATING" ui:field="b7" waves="LIGHT" size="LARGE" backgroundColor="GREEN" iconType="ADD_BOX" />
+         	<m:MaterialDatePicker ui:field="p8" placeholder="Date 8" container="SELF" selectionType="YEAR" grid="s12"/>
+         	</m:MaterialRow>
+         	<m:MaterialRow>
+         	<m:MaterialButton type="FLOATING" ui:field="b8" waves="LIGHT" size="LARGE" backgroundColor="PURPLE" iconType="ADD_BOX" />
+         	<m:MaterialDatePicker ui:field="p9" placeholder="Date 9" container="SELF" selectionType="YEAR" grid="s12"/>
+         	</m:MaterialRow>
+         	<m:MaterialRow>
+         	<m:MaterialButton type="FLOATING" ui:field="b9" waves="LIGHT" size="LARGE" backgroundColor="RED" iconType="ADD_BOX" />
+         	<m:MaterialDatePicker ui:field="p10" placeholder="Date 10" container="SELF" selectionType="YEAR" grid="s12"/>
+         	</m:MaterialRow>
+         	<m:MaterialButton type="FLOATING" ui:field="b10" waves="LIGHT" size="LARGE" backgroundColor="BLUE" iconType="ADD_BOX" />
+         </m:MaterialRow>
+         <m:MaterialPanel textAlign="CENTER">
+         <m:MaterialButton ui:field="button" text="Submit" waves="LIGHT" backgroundColor="BLUE_DARKEN_1" textColor="WHITE"/>
+         </m:MaterialPanel>
+	</g:HTMLPanel>
+</ui:UiBinder> 

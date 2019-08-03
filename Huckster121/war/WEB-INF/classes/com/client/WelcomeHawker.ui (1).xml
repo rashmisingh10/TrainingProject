@@ -1,0 +1,30 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui"
+	xmlns:m="urn:import:gwt.material.design.client.ui">
+	<ui:style>
+	
+	</ui:style>
+	<g:HTMLPanel>
+	<m:MaterialTab ui:field="tabIntro" shadow="1" indicatorColor="YELLOW" backgroundColor="BLUE_DARKEN_1" height="4.5em">
+              <m:MaterialTabItem waves="YELLOW">
+                <m:MaterialLabel text="HUCKSTER" fontSize="4em" textColor="WHITE"/>
+              </m:MaterialTabItem>
+            </m:MaterialTab>
+		<m:MaterialPanel textAlign="CENTER" paddingTop="70">
+	<m:MaterialRow> 
+		 <m:MaterialButton ui:field="b1" margin="8" text="Show Existing Customers" waves="LIGHT" textColor="WHITE" backgroundColor="RED" iconType="POLYMER" iconPosition="LEFT"/>
+		 </m:MaterialRow>
+		 <m:MaterialRow>
+	 <m:MaterialButton ui:field="b2" margin="8" text="Change Existing Plan" waves="LIGHT" textColor="WHITE" backgroundColor="BLUE" iconType="POLYMER" iconPosition="LEFT"/>
+	</m:MaterialRow>
+	<m:MaterialRow>
+	<m:MaterialButton ui:field="b3" margin="8" text="Show Customer's Request" waves="LIGHT" textColor="WHITE" backgroundColor="RED" iconType="POLYMER" iconPosition="LEFT"/>
+	</m:MaterialRow>
+	<m:MaterialRow>
+	<m:MaterialButton ui:field="b4" margin="8" text="Log Out" waves="LIGHT" textColor="WHITE" backgroundColor="BLUE" iconType="POLYMER" iconPosition="LEFT"/>
+	</m:MaterialRow>
+	
+	</m:MaterialPanel>
+	</g:HTMLPanel>
+</ui:UiBinder> 

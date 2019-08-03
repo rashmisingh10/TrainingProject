@@ -1,0 +1,23 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:m="urn:import:gwt.material.design.client.ui"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui">
+	<ui:style>
+	
+	</ui:style>
+	<g:HTMLPanel>
+	<m:MaterialTab ui:field="mt1" shadow="1" indicatorColor="YELLOW" backgroundColor="BLUE_DARKEN_1" height="4.5em">
+	<m:MaterialTabItem waves="YELLOW">
+	<m:MaterialLabel text="PAYMENT" fontSize="60px" textColor="WHITE"/>
+	</m:MaterialTabItem>
+	</m:MaterialTab>
+	
+	<m:MaterialLabel ui:field="l5" text="Total Amount:" fontSize="25px"/> 
+	 <m:MaterialTextBox ui:field="tb4" fontSize="25px"/>
+		<m:MaterialLabel ui:field="l6" text="Cost Of Service:" fontSize="25px"/> 
+	 <m:MaterialTextBox ui:field="tb5" fontSize="25px"/>
+	<m:MaterialLabel ui:field="l7" text="Cost To Pay:" fontSize="25px"/> 
+	 <m:MaterialTextBox ui:field="tb6" fontSize="25px"/> 
+	
+	</g:HTMLPanel>
+</ui:UiBinder> 

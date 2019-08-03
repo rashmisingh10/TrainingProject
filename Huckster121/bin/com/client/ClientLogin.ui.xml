@@ -1,0 +1,37 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+			 xmlns:m="urn:import:gwt.material.design.client.ui"
+			 xmlns:ma="urn:import:gwt.material.design.addins.client"
+			 xmlns:g="urn:import:com.google.gwt.user.client.ui">
+
+	<g:HTMLPanel>
+	<m:MaterialTab ui:field="tabIntro" shadow="1" indicatorColor="YELLOW" backgroundColor="BLUE_DARKEN_1" height="4.5em">
+              <m:MaterialTabItem waves="YELLOW">
+                <m:MaterialLabel text="HUCKSTER" fontSize="4em" textColor="WHITE"/>
+              </m:MaterialTabItem>
+            </m:MaterialTab>
+	<m:MaterialRow width="60%" paddingTop="25">
+	<m:MaterialPanel paddingLeft="200" paddingRight="200">
+	<m:MaterialCard>
+	<m:MaterialCardContent>
+	<m:MaterialPanel grid="l12 m12 s12" textAlign="CENTER"  backgroundColor="BLUE_DARKEN_1">
+	<m:MaterialLabel text="LOG IN" fontSize="2.5em"/>
+	</m:MaterialPanel>
+	<m:MaterialTextBox  ui:field="t1" paddingTop="60" placeholder="Email"  iconType="ACCOUNT_CIRCLE"/>
+    <m:MaterialTextBox ui:field="t2" paddingTop="20" placeholder="Password" type="PASSWORD"  iconType="HTTPS"/>
+    <m:MaterialPanel textAlign="CENTER">
+	<m:MaterialButton ui:field="b1"   waves="LIGHT" backgroundColor="BLUE_DARKEN_1" textColor="WHITE" iconType="POLYMER" iconPosition="RIGHT"/>
+	</m:MaterialPanel>
+	<m:MaterialPanel paddingTop="10" textAlign="RIGHT" paddingBottom="50">
+	<m:MaterialLink ui:field="b2" text="Create an account" fontSize="1.3em" textColor="GREY" />
+	</m:MaterialPanel>
+	</m:MaterialCardContent>
+	</m:MaterialCard>
+	<m:MaterialPanel textAlign="CENTER">
+	<m:MaterialButton ui:field="b3" backgroundColor="WHITE" textColor="BLACK"/>
+	</m:MaterialPanel>
+	</m:MaterialPanel>
+
+</m:MaterialRow>
+	</g:HTMLPanel>
+</ui:UiBinder>

@@ -1,0 +1,14 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+xmlns:m="urn:import:gwt.material.design.client.ui"
+xmlns:m.table='urn:import:gwt.material.design.client.ui.table'
+	xmlns:g="urn:import:com.google.gwt.user.client.ui" xmlns:c="urn:import:com.google.gwt.thirdparty.guava.common.collect">
+	<g:HTMLPanel>
+			<m.table:MaterialDataTable ui:field="table"
+ 			height="calc(100vh - 131px)"
+ 			useStickyHeader="true"
+ 			useCategories="true"
+ 			useRowExpansion="true"
+ 			selectionType="SINGLE"/>
+	</g:HTMLPanel>
+</ui:UiBinder> 
